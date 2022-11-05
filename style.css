@@ -1,0 +1,23 @@
+#box1{
+    width: 100px;
+    height: 100px;
+    box-sizing: content-box;
+    background-color: azure;
+    position: relative;
+    top: 115px;
+    z-index: 1;
+    border: 1px solid red;
+
+}
+
+#box2{
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    background-color: rgb(8, 99, 99);
+    position: relative;
+    top: 150px;
+    z-index: 2;
+    border: 1px solid rgb(9, 219, 58);
+}
+
